@@ -5,16 +5,18 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-900 via-gray-900 to-gray-800">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-6xl font-bold mb-6">
-            AI-Powered <span className="text-lime-500">Productivity</span> & Intelligence
+          <h1 className="text-5xl sm:text-7xl font-bold mb-8 tracking-tight">
+            AI-Powered <span className="text-lime-500">Productivity</span>
+            <br />
+            & Intelligence
           </h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Jessi Magic provides universities, law firms, investigators, and enterprises with
-            transparent, defensible AI tools for narrative forensics, workflow automation, and compliance.
+          <p className="text-xl sm:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
+            Transparent, defensible AI tools for narrative forensics, workflow automation,
+            and compliance—built for universities, law firms, investigators, and enterprises.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <CTAButton href="/contact">Request a Demo</CTAButton>
             <CTAButton href="/product-suite" variant="secondary">See the Suite</CTAButton>
           </div>
@@ -22,19 +24,19 @@ export default function Home() {
       </section>
 
       {/* Credibility Strip */}
-      <section className="py-8 bg-gray-800">
+      <section className="py-16 bg-gray-800/50 border-y border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div>
-              <h3 className="text-lime-500 font-semibold">Receipts-First Outputs</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <h3 className="text-lg font-semibold text-lime-400 mb-2">Receipts-First Outputs</h3>
               <p className="text-gray-300">Every result includes signals, limitations, and next steps</p>
             </div>
-            <div>
-              <h3 className="text-lime-500 font-semibold">Human-in-the-Loop</h3>
+            <div className="text-center">
+              <h3 className="text-lg font-semibold text-lime-400 mb-2">Human-in-the-Loop</h3>
               <p className="text-gray-300">AI supports human judgment, never replaces it</p>
             </div>
-            <div>
-              <h3 className="text-lime-500 font-semibold">Audit-Friendly</h3>
+            <div className="text-center">
+              <h3 className="text-lg font-semibold text-lime-400 mb-2">Audit-Friendly</h3>
               <p className="text-gray-300">Full transparency for compliance and defensibility</p>
             </div>
           </div>
@@ -42,9 +44,9 @@ export default function Home() {
       </section>
 
       {/* Product Cards */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section className="py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Product Suite</h2>
+          <h2 className="text-4xl font-bold text-center mb-16">Our Product Suite</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <FeatureCard
               title="Jessi Magic Core"
@@ -63,29 +65,34 @@ export default function Home() {
       </section>
 
       {/* Workflow Graphic */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-12">Our Workflow</h2>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-            <div className="bg-lime-500 text-black px-4 py-2 rounded">Ingest</div>
-            <div className="text-lime-500">→</div>
-            <div className="bg-gray-700 px-4 py-2 rounded">Standardize</div>
-            <div className="text-lime-500">→</div>
-            <div className="bg-gray-700 px-4 py-2 rounded">Analyze</div>
-            <div className="text-lime-500">→</div>
-            <div className="bg-gray-700 px-4 py-2 rounded">Rank</div>
-            <div className="text-lime-500">→</div>
-            <div className="bg-lime-500 text-black px-4 py-2 rounded">Receipts</div>
-            <div className="text-lime-500">→</div>
-            <div className="bg-gray-700 px-4 py-2 rounded">Action Packet</div>
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gray-800/50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-16">Our Workflow</h2>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-3 overflow-x-auto pb-4">
+            <div className="bg-lime-500 text-black px-6 py-3 rounded-lg font-semibold flex-shrink-0">Ingest</div>
+            <div className="text-lime-500 text-2xl hidden md:block">→</div>
+            <div className="text-lime-500 text-2xl md:hidden">↓</div>
+            <div className="bg-gradient-to-r from-gray-700 to-gray-600 px-6 py-3 rounded-lg font-semibold flex-shrink-0">Standardize</div>
+            <div className="text-lime-500 text-2xl hidden md:block">→</div>
+            <div className="text-lime-500 text-2xl md:hidden">↓</div>
+            <div className="bg-gradient-to-r from-gray-700 to-gray-600 px-6 py-3 rounded-lg font-semibold flex-shrink-0">Analyze</div>
+            <div className="text-lime-500 text-2xl hidden md:block">→</div>
+            <div className="text-lime-500 text-2xl md:hidden">↓</div>
+            <div className="bg-gradient-to-r from-gray-700 to-gray-600 px-6 py-3 rounded-lg font-semibold flex-shrink-0">Rank</div>
+            <div className="text-lime-500 text-2xl hidden md:block">→</div>
+            <div className="text-lime-500 text-2xl md:hidden">↓</div>
+            <div className="bg-lime-500 text-black px-6 py-3 rounded-lg font-semibold flex-shrink-0">Receipts</div>
+            <div className="text-lime-500 text-2xl hidden md:block">→</div>
+            <div className="text-lime-500 text-2xl md:hidden">↓</div>
+            <div className="bg-gradient-to-r from-gray-700 to-gray-600 px-6 py-3 rounded-lg font-semibold flex-shrink-0">Action</div>
           </div>
         </div>
       </section>
 
-      {/* Use Cases Carousel Placeholder */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      {/* Use Cases */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Trusted By</h2>
+          <h2 className="text-4xl font-bold text-center mb-16">Trusted By</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <FeatureCard title="Universities" description="Academic integrity and research support" />
             <FeatureCard title="Law Firms" description="Discovery and narrative review" />
@@ -95,32 +102,32 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Placeholder */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-12">What Our Users Say</h2>
+      {/* Testimonials */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gray-800/50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-center mb-16">What Our Users Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gray-700 p-6 rounded-lg">
-              <p className="text-gray-300 mb-4">"Jessi Magic has transformed our compliance workflow. The receipts give us the confidence to act."</p>
-              <p className="font-semibold">- Compliance Officer, University</p>
+            <div className="bg-gradient-to-br from-gray-700 to-gray-800 p-8 rounded-xl border border-gray-700 hover:border-lime-500/30 transition-colors">
+              <p className="text-gray-300 mb-6 italic leading-relaxed">&ldquo;Jessi Magic has transformed our compliance workflow. The receipts give us the confidence to act.&rdquo;</p>
+              <p className="font-semibold text-lime-400">Compliance Officer, University</p>
             </div>
-            <div className="bg-gray-700 p-6 rounded-lg">
-              <p className="text-gray-300 mb-4">"Snitch caught patterns we never would have seen. Game-changer for investigations."</p>
-              <p className="font-semibold">- Lead Investigator, Law Firm</p>
+            <div className="bg-gradient-to-br from-gray-700 to-gray-800 p-8 rounded-xl border border-gray-700 hover:border-lime-500/30 transition-colors">
+              <p className="text-gray-300 mb-6 italic leading-relaxed">&ldquo;Snitch caught patterns we never would have seen. Game-changer for investigations.&rdquo;</p>
+              <p className="font-semibold text-lime-400">Lead Investigator, Law Firm</p>
             </div>
-            <div className="bg-gray-700 p-6 rounded-lg">
-              <p className="text-gray-300 mb-4">"The transparency is unmatched. We can defend every decision."</p>
-              <p className="font-semibold">- Research Director, Enterprise</p>
+            <div className="bg-gradient-to-br from-gray-700 to-gray-800 p-8 rounded-xl border border-gray-700 hover:border-lime-500/30 transition-colors">
+              <p className="text-gray-300 mb-6 italic leading-relaxed">&ldquo;The transparency is unmatched. We can defend every decision.&rdquo;</p>
+              <p className="font-semibold text-lime-400">Research Director, Enterprise</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-32 px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
-          <p className="text-xl text-gray-300 mb-8">Join the organizations using Jessi Magic for defensible, transparent AI workflows.</p>
+          <h2 className="text-4xl font-bold mb-8">Ready to Get Started?</h2>
+          <p className="text-xl text-gray-300 mb-12 leading-relaxed">Join the organizations using Jessi Magic for defensible, transparent AI workflows.</p>
           <CTAButton href="/contact">Request a Demo</CTAButton>
         </div>
       </section>

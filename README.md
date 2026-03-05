@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jessi Magic Website
 
-## Getting Started
+A modern, high-trust marketing website for Jessi Magic - an AI productivity and intelligence platform.
 
-First, run the development server:
+## Features
+
+- **Dark Mode Default**: Clean, premium design with black/charcoal base and lime accent
+- **Responsive**: Mobile-first design that works on all devices
+- **SEO Optimized**: Proper meta tags, sitemap, and robots.txt
+- **Fast Loading**: Static generation with Next.js
+- **Accessible**: WCAG-compliant design patterns
+
+## Pages
+
+- **Home**: Hero section, credibility strip, product overview, workflow graphic, testimonials, CTAs
+- **Product Suite**: Overview of Core + Snitch + Mystery Machine with receipts example
+- **Snitch**: Narrative forensics deep dive with stylometry explanation
+- **Mystery Machine**: MP/UHR workflow support with guardrails
+- **Use Cases**: Detailed tiles for academic, legal, investigative, compliance, and research use cases
+- **Pricing**: Three-tier pricing (Starter, Pro, Enterprise)
+- **Security & Compliance**: Data privacy, encryption, audit logs, responsible AI
+- **About**: Mission, approach, and team information
+- **Contact**: Demo request form with use case selection
+
+## Tech Stack
+
+- **Framework**: Next.js 16 with App Router
+- **Styling**: Tailwind CSS v4
+- **Language**: TypeScript
+- **Fonts**: Geist Sans and Geist Mono
+
+## Components
+
+- `CTAButton`: Reusable call-to-action button component
+- `FeatureCard`: Product/service feature cards
+- `ReceiptOutput`: Transparent output display with signals and limitations
+- `Nav`: Sticky top navigation
+- `Footer`: Site footer with links
+
+## Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The site is optimized for static deployment. Build outputs can be deployed to Vercel, Netlify, or any static hosting service.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Content
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+All copy is placeholder content designed to sound credible and professional. Update with actual content as needed.

@@ -43,14 +43,14 @@ export default function Snitch() {
           <div className="bg-gray-800 p-6 rounded-lg mb-8">
             <h3 className="text-xl font-semibold mb-4 text-lime-500">Flagged Pattern</h3>
             <p className="text-gray-300 mb-4">
-              "This essay will explore the various aspects of climate change. It is important to note that climate change affects multiple sectors. Furthermore, the impact on agriculture cannot be underestimated."
+              &ldquo;This essay will explore the various aspects of climate change. It is important to note that climate change affects multiple sectors. Furthermore, the impact on agriculture cannot be underestimated.&rdquo;
             </p>
             <p className="text-red-400">Flag: Boilerplate academic language detected. Risk score: 75/100</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4 text-lime-500">Improved Version</h3>
             <p className="text-gray-300 mb-4">
-              "Climate change hits hard across industries. Agriculture takes a big hit—crop yields drop, water gets scarce, and farmers struggle with unpredictable weather."
+              &ldquo;Climate change hits hard across industries. Agriculture takes a big hit—crop yields drop, water gets scarce, and farmers struggle with unpredictable weather.&rdquo;
             </p>
             <p className="text-green-400">Improved: More direct voice, reduced boilerplate. Risk score: 25/100</p>
           </div>
