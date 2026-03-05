@@ -1,5 +1,4 @@
 import CTAButton from '@/components/CTAButton';
-import FeatureCard from '@/components/FeatureCard';
 
 export default function UseCases() {
   return (
@@ -25,8 +24,8 @@ export default function UseCases() {
               </p>
               <h3 className="text-xl font-semibold mb-4">Output Example</h3>
               <p className="text-gray-300">
-                "Document shows 72% stylometric consistency. Flagged sections include boilerplate
-                phrases. Human review recommended."
+                &ldquo;Document shows 72% stylometric consistency. Flagged sections include boilerplate
+                phrases. Human review recommended.&rdquo;
               </p>
             </div>
           </div>
@@ -49,8 +48,8 @@ export default function UseCases() {
               </p>
               <h3 className="text-xl font-semibold mb-4">Output Example</h3>
               <p className="text-gray-300">
-                "Statement shows 85% similarity to previously analyzed documents. Signals: matching
-                n-grams, consistent punctuation patterns."
+                &ldquo;Statement shows 85% similarity to previously analyzed documents. Signals: matching
+                n-grams, consistent punctuation patterns.&rdquo;
               </p>
             </div>
           </div>
@@ -74,8 +73,8 @@ export default function UseCases() {
               </p>
               <h3 className="text-xl font-semibold mb-4">Output Example</h3>
               <p className="text-gray-300">
-                "Case #12345: 3 potential matches ranked. Top match: 78% similarity score.
-                Next steps: DNA verification, witness interviews."
+                &ldquo;Case #12345: 3 potential matches ranked. Top match: 78% similarity score.
+                Next steps: DNA verification, witness interviews.&rdquo;
               </p>
             </div>
           </div>
@@ -98,8 +97,8 @@ export default function UseCases() {
               </p>
               <h3 className="text-xl font-semibold mb-4">Output Example</h3>
               <p className="text-gray-300">
-                "Communication flagged for policy review. Signals: unusual urgency patterns,
-                non-standard language. Risk level: Medium."
+                &ldquo;Communication flagged for policy review. Signals: unusual urgency patterns,
+                non-standard language. Risk level: Medium.&rdquo;
               </p>
             </div>
           </div>
@@ -122,8 +121,8 @@ export default function UseCases() {
               </p>
               <h3 className="text-xl font-semibold mb-4">Output Example</h3>
               <p className="text-gray-300">
-                "Key finding: 65% reduction in error rates (Source: Study A, confidence: High).
-                Methodology: Double-blind controlled trial."
+                &ldquo;Key finding: 65% reduction in error rates (Source: Study A, confidence: High).
+                Methodology: Double-blind controlled trial.&rdquo;
               </p>
             </div>
           </div>

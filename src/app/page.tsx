@@ -101,15 +101,15 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-12">What Our Users Say</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-gray-700 p-6 rounded-lg">
-              <p className="text-gray-300 mb-4">"Jessi Magic has transformed our compliance workflow. The receipts give us the confidence to act."</p>
+              <p className="text-gray-300 mb-4">&ldquo;Jessi Magic has transformed our compliance workflow. The receipts give us the confidence to act.&rdquo;</p>
               <p className="font-semibold">- Compliance Officer, University</p>
             </div>
             <div className="bg-gray-700 p-6 rounded-lg">
-              <p className="text-gray-300 mb-4">"Snitch caught patterns we never would have seen. Game-changer for investigations."</p>
+              <p className="text-gray-300 mb-4">&ldquo;Snitch caught patterns we never would have seen. Game-changer for investigations.&rdquo;</p>
               <p className="font-semibold">- Lead Investigator, Law Firm</p>
             </div>
             <div className="bg-gray-700 p-6 rounded-lg">
-              <p className="text-gray-300 mb-4">"The transparency is unmatched. We can defend every decision."</p>
+              <p className="text-gray-300 mb-4">&ldquo;The transparency is unmatched. We can defend every decision.&rdquo;</p>
               <p className="font-semibold">- Research Director, Enterprise</p>
             </div>
           </div>
